@@ -13,6 +13,7 @@ string letterDistance(string str1, string str2){
         str2.copy(cstr2, str2.size());
         for(long unsigned int i=0; i<str1.size(); i++){
           x+=abs(int(cstr1[i])-int(cstr2[i]));
+          cout<<x<<endl;
         }
         cout<<x<<endl;
 	      return 0;
